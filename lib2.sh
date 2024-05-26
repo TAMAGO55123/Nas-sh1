@@ -11,3 +11,6 @@ sudo ufw allow 22
 sudo ufw enable
 hostname -I
 sudo apt install php libapache2-mod-php -y
+
+sudo apt install samba -y
+sudo ufw allow 445/tcp
